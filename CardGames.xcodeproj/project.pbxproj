@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		0309DE2F240876D0001CAAD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE2E240876D0001CAAD0 /* AppDelegate.m */; };
 		0309DE32240876D0001CAAD0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE31240876D0001CAAD0 /* SceneDelegate.m */; };
-		0309DE35240876D0001CAAD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE34240876D0001CAAD0 /* ViewController.m */; };
-		0309DE38240876D0001CAAD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309DE36240876D0001CAAD0 /* Main.storyboard */; };
+		0309DE35240876D0001CAAD0 /* SJController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE34240876D0001CAAD0 /* SJController.m */; };
 		0309DE3A240876D4001CAAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0309DE39240876D4001CAAD0 /* Assets.xcassets */; };
-		0309DE3D240876D4001CAAD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309DE3B240876D4001CAAD0 /* LaunchScreen.storyboard */; };
 		0309DE40240876D4001CAAD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE3F240876D4001CAAD0 /* main.m */; };
 		0309DE4A240876D5001CAAD0 /* CardGamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE49240876D5001CAAD0 /* CardGamesTests.m */; };
 		0309DE55240876D5001CAAD0 /* CardGamesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE54240876D5001CAAD0 /* CardGamesUITests.m */; };
+		0309DE6424087751001CAAD0 /* CardsMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309DE6324087751001CAAD0 /* CardsMenu.storyboard */; };
+		0309DE66240877D5001CAAD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309DE65240877D5001CAAD0 /* LaunchScreen.storyboard */; };
+		0309DE6A240878E0001CAAD0 /* SJTutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309DE69240878E0001CAAD0 /* SJTutorial.storyboard */; };
+		0309DE7024087DA2001CAAD0 /* WarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE6F24087DA2001CAAD0 /* WarController.m */; };
+		0309DE7624087E59001CAAD0 /* cards.c in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE7524087E59001CAAD0 /* cards.c */; };
+		0309DE7824087F11001CAAD0 /* multiplayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309DE7724087F11001CAAD0 /* multiplayer.storyboard */; };
+		0309DE7A24087FFF001CAAD0 /* SlapJack4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309DE7924087FFF001CAAD0 /* SlapJack4.storyboard */; };
+		031949EA2409D18900E3C6EA /* SlapJack2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031949E92409D18900E3C6EA /* SlapJack2.storyboard */; };
+		031949EC2409D1C000E3C6EA /* SlapJack3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031949EB2409D1C000E3C6EA /* SlapJack3.storyboard */; };
+		031949EE2409D29000E3C6EA /* War.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031949ED2409D29000E3C6EA /* War.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +49,9 @@
 		0309DE2E240876D0001CAAD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0309DE30240876D0001CAAD0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		0309DE31240876D0001CAAD0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		0309DE33240876D0001CAAD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0309DE34240876D0001CAAD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0309DE37240876D0001CAAD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0309DE33240876D0001CAAD0 /* SJController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJController.h; sourceTree = "<group>"; };
+		0309DE34240876D0001CAAD0 /* SJController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJController.m; sourceTree = "<group>"; };
 		0309DE39240876D4001CAAD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0309DE3C240876D4001CAAD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0309DE3E240876D4001CAAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0309DE3F240876D4001CAAD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0309DE45240876D5001CAAD0 /* CardGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +60,18 @@
 		0309DE50240876D5001CAAD0 /* CardGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0309DE54240876D5001CAAD0 /* CardGamesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGamesUITests.m; sourceTree = "<group>"; };
 		0309DE56240876D5001CAAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0309DE6324087751001CAAD0 /* CardsMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardsMenu.storyboard; sourceTree = "<group>"; };
+		0309DE65240877D5001CAAD0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0309DE69240878E0001CAAD0 /* SJTutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SJTutorial.storyboard; sourceTree = "<group>"; };
+		0309DE6E24087D8D001CAAD0 /* WarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarController.h; sourceTree = "<group>"; };
+		0309DE6F24087DA2001CAAD0 /* WarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarController.m; sourceTree = "<group>"; };
+		0309DE7224087DFF001CAAD0 /* Control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Control.h; sourceTree = "<group>"; };
+		0309DE7524087E59001CAAD0 /* cards.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cards.c; sourceTree = "<group>"; };
+		0309DE7724087F11001CAAD0 /* multiplayer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = multiplayer.storyboard; sourceTree = "<group>"; };
+		0309DE7924087FFF001CAAD0 /* SlapJack4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SlapJack4.storyboard; sourceTree = "<group>"; };
+		031949E92409D18900E3C6EA /* SlapJack2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SlapJack2.storyboard; sourceTree = "<group>"; };
+		031949EB2409D1C000E3C6EA /* SlapJack3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SlapJack3.storyboard; sourceTree = "<group>"; };
+		031949ED2409D29000E3C6EA /* War.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = War.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				0309DE2C240876D0001CAAD0 /* CardGames */,
+				0309DE7124087DCD001CAAD0 /* Control */,
+				0309DE3E240876D4001CAAD0 /* Info.plist */,
 				0309DE48240876D5001CAAD0 /* CardGamesTests */,
 				0309DE53240876D5001CAAD0 /* CardGamesUITests */,
 				0309DE2B240876D0001CAAD0 /* Products */,
@@ -104,17 +124,11 @@
 		0309DE2C240876D0001CAAD0 /* CardGames */ = {
 			isa = PBXGroup;
 			children = (
-				0309DE2D240876D0001CAAD0 /* AppDelegate.h */,
-				0309DE2E240876D0001CAAD0 /* AppDelegate.m */,
-				0309DE30240876D0001CAAD0 /* SceneDelegate.h */,
-				0309DE31240876D0001CAAD0 /* SceneDelegate.m */,
-				0309DE33240876D0001CAAD0 /* ViewController.h */,
-				0309DE34240876D0001CAAD0 /* ViewController.m */,
-				0309DE36240876D0001CAAD0 /* Main.storyboard */,
-				0309DE39240876D4001CAAD0 /* Assets.xcassets */,
-				0309DE3B240876D4001CAAD0 /* LaunchScreen.storyboard */,
-				0309DE3E240876D4001CAAD0 /* Info.plist */,
 				0309DE3F240876D4001CAAD0 /* main.m */,
+				0309DE6724087825001CAAD0 /* Models */,
+				0309DE39240876D4001CAAD0 /* Assets.xcassets */,
+				0309DE622408772B001CAAD0 /* Views */,
+				0309DE68240878B0001CAAD0 /* View Controllers */,
 			);
 			path = CardGames;
 			sourceTree = "<group>";
@@ -135,6 +149,52 @@
 				0309DE56240876D5001CAAD0 /* Info.plist */,
 			);
 			path = CardGamesUITests;
+			sourceTree = "<group>";
+		};
+		0309DE622408772B001CAAD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0309DE65240877D5001CAAD0 /* LaunchScreen.storyboard */,
+				0309DE6324087751001CAAD0 /* CardsMenu.storyboard */,
+				0309DE69240878E0001CAAD0 /* SJTutorial.storyboard */,
+				0309DE7724087F11001CAAD0 /* multiplayer.storyboard */,
+				0309DE7924087FFF001CAAD0 /* SlapJack4.storyboard */,
+				031949EB2409D1C000E3C6EA /* SlapJack3.storyboard */,
+				031949E92409D18900E3C6EA /* SlapJack2.storyboard */,
+				031949ED2409D29000E3C6EA /* War.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0309DE6724087825001CAAD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0309DE2D240876D0001CAAD0 /* AppDelegate.h */,
+				0309DE2E240876D0001CAAD0 /* AppDelegate.m */,
+				0309DE30240876D0001CAAD0 /* SceneDelegate.h */,
+				0309DE31240876D0001CAAD0 /* SceneDelegate.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0309DE68240878B0001CAAD0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0309DE33240876D0001CAAD0 /* SJController.h */,
+				0309DE34240876D0001CAAD0 /* SJController.m */,
+				0309DE6E24087D8D001CAAD0 /* WarController.h */,
+				0309DE6F24087DA2001CAAD0 /* WarController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0309DE7124087DCD001CAAD0 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				0309DE7224087DFF001CAAD0 /* Control.h */,
+				0309DE7524087E59001CAAD0 /* cards.c */,
+			);
+			path = Control;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +300,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0309DE3D240876D4001CAAD0 /* LaunchScreen.storyboard in Resources */,
+				0309DE6424087751001CAAD0 /* CardsMenu.storyboard in Resources */,
+				0309DE6A240878E0001CAAD0 /* SJTutorial.storyboard in Resources */,
+				0309DE7824087F11001CAAD0 /* multiplayer.storyboard in Resources */,
+				0309DE7A24087FFF001CAAD0 /* SlapJack4.storyboard in Resources */,
+				031949EA2409D18900E3C6EA /* SlapJack2.storyboard in Resources */,
+				0309DE66240877D5001CAAD0 /* LaunchScreen.storyboard in Resources */,
+				031949EE2409D29000E3C6EA /* War.storyboard in Resources */,
 				0309DE3A240876D4001CAAD0 /* Assets.xcassets in Resources */,
-				0309DE38240876D0001CAAD0 /* Main.storyboard in Resources */,
+				031949EC2409D1C000E3C6EA /* SlapJack3.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +333,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0309DE35240876D0001CAAD0 /* ViewController.m in Sources */,
+				0309DE7024087DA2001CAAD0 /* WarController.m in Sources */,
+				0309DE35240876D0001CAAD0 /* SJController.m in Sources */,
 				0309DE2F240876D0001CAAD0 /* AppDelegate.m in Sources */,
+				0309DE7624087E59001CAAD0 /* cards.c in Sources */,
 				0309DE40240876D4001CAAD0 /* main.m in Sources */,
 				0309DE32240876D0001CAAD0 /* SceneDelegate.m in Sources */,
 			);
@@ -304,25 +372,6 @@
 			targetProxy = 0309DE51240876D5001CAAD0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0309DE36240876D0001CAAD0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0309DE37240876D0001CAAD0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0309DE3B240876D4001CAAD0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0309DE3C240876D4001CAAD0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0309DE57240876D5001CAAD0 /* Debug */ = {
