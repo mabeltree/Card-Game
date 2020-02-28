@@ -130,12 +130,10 @@
                     </view>
                     <connections>
                         <outlet property="pile" destination="QzU-tP-WLg" id="yVe-h7-fkg"/>
-                        <outlet property="place" destination="7mv-Ym-SNa" id="IUs-6A-Ni5"/>
                         <outlet property="player1count" destination="Jqo-Gx-JXH" id="MAZ-cf-OHm"/>
                         <outlet property="player1deck" destination="Mkk-wy-ls0" id="uyF-cn-J8X"/>
                         <outlet property="player2count" destination="n7A-j9-cCs" id="NFp-vh-rIR"/>
                         <outlet property="player2deck" destination="eSu-pl-8s7" id="Jf3-NS-ACf"/>
-                        <outlet property="slap" destination="q6J-Qt-oWb" id="Ciw-au-Aol"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W3a-a9-pBj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -145,12 +143,12 @@
         <!--CardsMenu-->
         <scene sceneID="1f8-Lq-uMz">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="CardsMenu" storyboardName="CardsMenu" id="z3j-Dd-LFV" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="CardsMenu" storyboardName="CardsMenu" referencedIdentifier="CardsMenu" id="z3j-Dd-LFV" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="LaS-UH-sPh"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gaE-Fl-NVU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="434" y="-155"/>
+            <point key="canvasLocation" x="466" y="-140"/>
         </scene>
     </scenes>
     <resources>

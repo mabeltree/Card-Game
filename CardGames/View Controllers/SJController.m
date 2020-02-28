@@ -8,6 +8,7 @@
 
 #import "SJController.h"
 #include <math.h>
+//#include "Control.h"
 
 
 @implementation SJController
