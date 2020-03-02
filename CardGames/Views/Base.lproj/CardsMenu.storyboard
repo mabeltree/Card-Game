@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="gEB-17-Zih">
             <objects>
-                <viewController storyboardIdentifier="CardsMenu" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DU6-mh-Jfy" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CardsMenu" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DU6-mh-Jfy" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kuV-3K-pho">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

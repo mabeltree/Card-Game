@@ -14,7 +14,6 @@
 		0309DE40240876D4001CAAD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE3F240876D4001CAAD0 /* main.m */; };
 		0309DE4A240876D5001CAAD0 /* CardGamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE49240876D5001CAAD0 /* CardGamesTests.m */; };
 		0309DE55240876D5001CAAD0 /* CardGamesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE54240876D5001CAAD0 /* CardGamesUITests.m */; };
-		0309DE6424087751001CAAD0 /* CardsMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309DE6324087751001CAAD0 /* CardsMenu.storyboard */; };
 		0309DE66240877D5001CAAD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309DE65240877D5001CAAD0 /* LaunchScreen.storyboard */; };
 		0309DE6A240878E0001CAAD0 /* SJTutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309DE69240878E0001CAAD0 /* SJTutorial.storyboard */; };
 		0309DE7024087DA2001CAAD0 /* WarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309DE6F24087DA2001CAAD0 /* WarController.m */; };
@@ -24,6 +23,7 @@
 		031949EA2409D18900E3C6EA /* SlapJack2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031949E92409D18900E3C6EA /* SlapJack2.storyboard */; };
 		031949EC2409D1C000E3C6EA /* SlapJack3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031949EB2409D1C000E3C6EA /* SlapJack3.storyboard */; };
 		031949EE2409D29000E3C6EA /* War.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031949ED2409D29000E3C6EA /* War.storyboard */; };
+		0355832B240DBD7100074E92 /* CardsMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0355832D240DBD7100074E92 /* CardsMenu.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,6 @@
 		0309DE50240876D5001CAAD0 /* CardGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0309DE54240876D5001CAAD0 /* CardGamesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGamesUITests.m; sourceTree = "<group>"; };
 		0309DE56240876D5001CAAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0309DE6324087751001CAAD0 /* CardsMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardsMenu.storyboard; sourceTree = "<group>"; };
 		0309DE65240877D5001CAAD0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0309DE69240878E0001CAAD0 /* SJTutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SJTutorial.storyboard; sourceTree = "<group>"; };
 		0309DE6E24087D8D001CAAD0 /* WarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarController.h; sourceTree = "<group>"; };
@@ -72,6 +71,7 @@
 		031949E92409D18900E3C6EA /* SlapJack2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SlapJack2.storyboard; sourceTree = "<group>"; };
 		031949EB2409D1C000E3C6EA /* SlapJack3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SlapJack3.storyboard; sourceTree = "<group>"; };
 		031949ED2409D29000E3C6EA /* War.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = War.storyboard; sourceTree = "<group>"; };
+		0355832C240DBD7100074E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CardsMenu.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				0309DE65240877D5001CAAD0 /* LaunchScreen.storyboard */,
-				0309DE6324087751001CAAD0 /* CardsMenu.storyboard */,
+				0355832D240DBD7100074E92 /* CardsMenu.storyboard */,
 				0309DE69240878E0001CAAD0 /* SJTutorial.storyboard */,
 				0309DE7724087F11001CAAD0 /* multiplayer.storyboard */,
 				0309DE7924087FFF001CAAD0 /* SlapJack4.storyboard */,
@@ -300,7 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0309DE6424087751001CAAD0 /* CardsMenu.storyboard in Resources */,
+				0355832B240DBD7100074E92 /* CardsMenu.storyboard in Resources */,
 				0309DE6A240878E0001CAAD0 /* SJTutorial.storyboard in Resources */,
 				0309DE7824087F11001CAAD0 /* multiplayer.storyboard in Resources */,
 				0309DE7A24087FFF001CAAD0 /* SlapJack4.storyboard in Resources */,
@@ -372,6 +372,17 @@
 			targetProxy = 0309DE51240876D5001CAAD0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0355832D240DBD7100074E92 /* CardsMenu.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0355832C240DBD7100074E92 /* Base */,
+			);
+			name = CardsMenu.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0309DE57240876D5001CAAD0 /* Debug */ = {
