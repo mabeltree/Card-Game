@@ -79,9 +79,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="uUQ-t1-JIn" kind="show" id="NFJ-eW-EXb"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdn-Tj-OPg">
                                 <rect key="frame" x="102" y="420" width="170" height="50"/>
@@ -121,9 +118,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="V8R-iF-oNx" kind="show" id="0BZ-WF-N0I"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycm-pR-LgE">
                                 <rect key="frame" x="102" y="360" width="170" height="50"/>
@@ -181,7 +175,7 @@
         <!--Golf3-->
         <scene sceneID="Bh2-LR-IxU">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Golf3" storyboardName="pond" referencedIdentifier="Golf3" id="WOV-RZ-a7i" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="Golf3" storyboardName="Golf3" referencedIdentifier="Golf3" id="WOV-RZ-a7i" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="68O-AF-F8d"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K7Q-dw-T7G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -191,32 +185,12 @@
         <!--Golf4-->
         <scene sceneID="Z69-uz-F8W">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Golf4" storyboardName="golf4trial" referencedIdentifier="Golf4" id="LGb-Pr-AvB" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="Golf4" storyboardName="Golf4" referencedIdentifier="Golf4" id="LGb-Pr-AvB" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="me4-jf-3zh"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ffw-Yw-vzh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="537" y="144"/>
-        </scene>
-        <!--Golf5-->
-        <scene sceneID="xu0-7e-cSp">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Golf5" storyboardName="Golf4" referencedIdentifier="Golf5" id="V8R-iF-oNx" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="QX8-7w-EnR"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8ZF-Od-10f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="537" y="175"/>
-        </scene>
-        <!--Golf6-->
-        <scene sceneID="bBJ-CY-lb3">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Golf6" storyboardName="portal1" referencedIdentifier="Golf6" id="uUQ-t1-JIn" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="2hM-D1-LbA"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H3Z-J0-CR1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="537" y="206"/>
         </scene>
     </scenes>
 </document>

@@ -20,7 +20,7 @@
         <!--Golf Controller-->
         <scene sceneID="b36-iH-WHH">
             <objects>
-                <viewController storyboardIdentifier="Golfgreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WfG-yj-ZnS" customClass="GolfController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GolfTutorial" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WfG-yj-ZnS" customClass="GolfController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p75-Cg-j90">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

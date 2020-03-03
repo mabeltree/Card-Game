@@ -144,12 +144,12 @@
         <!--Golf4-->
         <scene sceneID="THR-7K-3Mo">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Golf4" storyboardName="golf4trial" referencedIdentifier="Golf4" id="p0P-d9-5Vu" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="Golf4" storyboardName="Golf4" referencedIdentifier="Golf4" id="p0P-d9-5Vu" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="pRd-Hz-fgk"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4UC-5c-pwP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="299" y="-165"/>
+            <point key="canvasLocation" x="377" y="-153"/>
         </scene>
     </scenes>
     <resources>

@@ -32,6 +32,7 @@
 		0379D876240DE9D700AFA50C /* Golf2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379D875240DE9D700AFA50C /* Golf2.storyboard */; };
 		0379D878240DEC0C00AFA50C /* Golf3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379D877240DEC0C00AFA50C /* Golf3.storyboard */; };
 		0379D87A240DED9200AFA50C /* Golf4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379D879240DED9200AFA50C /* Golf4.storyboard */; };
+		0379D87C240DEFB900AFA50C /* Golf5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379D87B240DEFB900AFA50C /* Golf5.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		0379D875240DE9D700AFA50C /* Golf2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf2.storyboard; sourceTree = "<group>"; };
 		0379D877240DEC0C00AFA50C /* Golf3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf3.storyboard; sourceTree = "<group>"; };
 		0379D879240DED9200AFA50C /* Golf4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf4.storyboard; sourceTree = "<group>"; };
+		0379D87B240DEFB900AFA50C /* Golf5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf5.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 				0379D875240DE9D700AFA50C /* Golf2.storyboard */,
 				0379D877240DEC0C00AFA50C /* Golf3.storyboard */,
 				0379D879240DED9200AFA50C /* Golf4.storyboard */,
+				0379D87B240DEFB900AFA50C /* Golf5.storyboard */,
 			);
 			path = Golf;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0379D87C240DEFB900AFA50C /* Golf5.storyboard in Resources */,
 				0379D86B240DE29100AFA50C /* GolfMenu.storyboard in Resources */,
 				0355832B240DBD7100074E92 /* CardsMenu.storyboard in Resources */,
 				0379D870240DE55D00AFA50C /* GolfTutorial.storyboard in Resources */,

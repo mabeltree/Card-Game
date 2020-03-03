@@ -10,7 +10,7 @@
         <!--Golf Controller-->
         <scene sceneID="b36-iH-WHH">
             <objects>
-                <viewController storyboardIdentifier="Golflevel4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WfG-yj-ZnS" customClass="GolfController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Golf4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WfG-yj-ZnS" customClass="GolfController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p75-Cg-j90">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -88,9 +88,6 @@
                                 <state key="normal" title="Next Level">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <segue destination="fAc-hx-ZNv" kind="show" id="frv-tI-RZe"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="km0-bs-P9S">
                                 <rect key="frame" x="15" y="740" width="120" height="40"/>
@@ -152,16 +149,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wpH-HS-ghY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-100" y="-14.039408866995075"/>
-        </scene>
-        <!--Golf5-->
-        <scene sceneID="RVI-nQ-fIy">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Golf5" storyboardName="Golf4" referencedIdentifier="Golf5" id="fAc-hx-ZNv" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Cd2-Vd-F4r"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qxg-nS-E84" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="291" y="-159"/>
         </scene>
     </scenes>
     <resources>
