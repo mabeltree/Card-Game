@@ -24,6 +24,14 @@
 		031949EC2409D1C000E3C6EA /* SlapJack3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031949EB2409D1C000E3C6EA /* SlapJack3.storyboard */; };
 		031949EE2409D29000E3C6EA /* War.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031949ED2409D29000E3C6EA /* War.storyboard */; };
 		0355832B240DBD7100074E92 /* CardsMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0355832D240DBD7100074E92 /* CardsMenu.storyboard */; };
+		0379D869240DD11900AFA50C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379D868240DD11900AFA50C /* Main.storyboard */; };
+		0379D86B240DE29100AFA50C /* GolfMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379D86A240DE29100AFA50C /* GolfMenu.storyboard */; };
+		0379D86D240DE45300AFA50C /* GolfController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379D86C240DE45300AFA50C /* GolfController.m */; };
+		0379D870240DE55D00AFA50C /* GolfTutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379D86F240DE55D00AFA50C /* GolfTutorial.storyboard */; };
+		0379D874240DE6E000AFA50C /* Golf1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379D873240DE6E000AFA50C /* Golf1.storyboard */; };
+		0379D876240DE9D700AFA50C /* Golf2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379D875240DE9D700AFA50C /* Golf2.storyboard */; };
+		0379D878240DEC0C00AFA50C /* Golf3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379D877240DEC0C00AFA50C /* Golf3.storyboard */; };
+		0379D87A240DED9200AFA50C /* Golf4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379D879240DED9200AFA50C /* Golf4.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +80,15 @@
 		031949EB2409D1C000E3C6EA /* SlapJack3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SlapJack3.storyboard; sourceTree = "<group>"; };
 		031949ED2409D29000E3C6EA /* War.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = War.storyboard; sourceTree = "<group>"; };
 		0355832C240DBD7100074E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CardsMenu.storyboard; sourceTree = "<group>"; };
+		0379D868240DD11900AFA50C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0379D86A240DE29100AFA50C /* GolfMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GolfMenu.storyboard; sourceTree = "<group>"; };
+		0379D86C240DE45300AFA50C /* GolfController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolfController.m; sourceTree = "<group>"; };
+		0379D86E240DE46200AFA50C /* GolfController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GolfController.h; sourceTree = "<group>"; };
+		0379D86F240DE55D00AFA50C /* GolfTutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GolfTutorial.storyboard; sourceTree = "<group>"; };
+		0379D873240DE6E000AFA50C /* Golf1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf1.storyboard; sourceTree = "<group>"; };
+		0379D875240DE9D700AFA50C /* Golf2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf2.storyboard; sourceTree = "<group>"; };
+		0379D877240DEC0C00AFA50C /* Golf3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf3.storyboard; sourceTree = "<group>"; };
+		0379D879240DED9200AFA50C /* Golf4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf4.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,13 +172,9 @@
 			isa = PBXGroup;
 			children = (
 				0309DE65240877D5001CAAD0 /* LaunchScreen.storyboard */,
-				0355832D240DBD7100074E92 /* CardsMenu.storyboard */,
-				0309DE69240878E0001CAAD0 /* SJTutorial.storyboard */,
-				0309DE7724087F11001CAAD0 /* multiplayer.storyboard */,
-				0309DE7924087FFF001CAAD0 /* SlapJack4.storyboard */,
-				031949EB2409D1C000E3C6EA /* SlapJack3.storyboard */,
-				031949E92409D18900E3C6EA /* SlapJack2.storyboard */,
-				031949ED2409D29000E3C6EA /* War.storyboard */,
+				0379D868240DD11900AFA50C /* Main.storyboard */,
+				0379D872240DE58900AFA50C /* Golf */,
+				0379D871240DE57300AFA50C /* Cards */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +197,8 @@
 				0309DE34240876D0001CAAD0 /* SJController.m */,
 				0309DE6E24087D8D001CAAD0 /* WarController.h */,
 				0309DE6F24087DA2001CAAD0 /* WarController.m */,
+				0379D86E240DE46200AFA50C /* GolfController.h */,
+				0379D86C240DE45300AFA50C /* GolfController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -195,6 +210,33 @@
 				0309DE7524087E59001CAAD0 /* cards.c */,
 			);
 			path = Control;
+			sourceTree = "<group>";
+		};
+		0379D871240DE57300AFA50C /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				0355832D240DBD7100074E92 /* CardsMenu.storyboard */,
+				0309DE69240878E0001CAAD0 /* SJTutorial.storyboard */,
+				0309DE7724087F11001CAAD0 /* multiplayer.storyboard */,
+				0309DE7924087FFF001CAAD0 /* SlapJack4.storyboard */,
+				031949EB2409D1C000E3C6EA /* SlapJack3.storyboard */,
+				031949E92409D18900E3C6EA /* SlapJack2.storyboard */,
+				031949ED2409D29000E3C6EA /* War.storyboard */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		0379D872240DE58900AFA50C /* Golf */ = {
+			isa = PBXGroup;
+			children = (
+				0379D86A240DE29100AFA50C /* GolfMenu.storyboard */,
+				0379D86F240DE55D00AFA50C /* GolfTutorial.storyboard */,
+				0379D873240DE6E000AFA50C /* Golf1.storyboard */,
+				0379D875240DE9D700AFA50C /* Golf2.storyboard */,
+				0379D877240DEC0C00AFA50C /* Golf3.storyboard */,
+				0379D879240DED9200AFA50C /* Golf4.storyboard */,
+			);
+			path = Golf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,13 +342,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0379D86B240DE29100AFA50C /* GolfMenu.storyboard in Resources */,
 				0355832B240DBD7100074E92 /* CardsMenu.storyboard in Resources */,
+				0379D870240DE55D00AFA50C /* GolfTutorial.storyboard in Resources */,
+				0379D87A240DED9200AFA50C /* Golf4.storyboard in Resources */,
+				0379D869240DD11900AFA50C /* Main.storyboard in Resources */,
+				0379D878240DEC0C00AFA50C /* Golf3.storyboard in Resources */,
 				0309DE6A240878E0001CAAD0 /* SJTutorial.storyboard in Resources */,
 				0309DE7824087F11001CAAD0 /* multiplayer.storyboard in Resources */,
 				0309DE7A24087FFF001CAAD0 /* SlapJack4.storyboard in Resources */,
 				031949EA2409D18900E3C6EA /* SlapJack2.storyboard in Resources */,
+				0379D874240DE6E000AFA50C /* Golf1.storyboard in Resources */,
 				0309DE66240877D5001CAAD0 /* LaunchScreen.storyboard in Resources */,
 				031949EE2409D29000E3C6EA /* War.storyboard in Resources */,
+				0379D876240DE9D700AFA50C /* Golf2.storyboard in Resources */,
 				0309DE3A240876D4001CAAD0 /* Assets.xcassets in Resources */,
 				031949EC2409D1C000E3C6EA /* SlapJack3.storyboard in Resources */,
 			);
@@ -335,6 +384,7 @@
 			files = (
 				0309DE7024087DA2001CAAD0 /* WarController.m in Sources */,
 				0309DE35240876D0001CAAD0 /* SJController.m in Sources */,
+				0379D86D240DE45300AFA50C /* GolfController.m in Sources */,
 				0309DE2F240876D0001CAAD0 /* AppDelegate.m in Sources */,
 				0309DE7624087E59001CAAD0 /* cards.c in Sources */,
 				0309DE40240876D4001CAAD0 /* main.m in Sources */,
@@ -500,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8C76M7F97;
 				INFOPLIST_FILE = CardGames/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -516,6 +567,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8C76M7F97;
 				INFOPLIST_FILE = CardGames/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

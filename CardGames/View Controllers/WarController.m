@@ -217,9 +217,9 @@ static GAME_MODE gameMode;
     
     --counterPlayDeck;
     // play player card in war zone
-    NSString *pId = [NSString stringWithFormat:@"%s.png" , player[counterPlayDeck].cImage];
+    NSString *pId = [NSString stringWithFormat:@"%s.png", player[counterPlayDeck].cImage];
     [playerWarPlay setImage:[UIImage imageNamed:pId]];
-    
+
     // move card to war zone
     card2handcp(&warZone[0], player[counterPlayDeck]);
     
