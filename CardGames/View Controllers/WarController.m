@@ -17,11 +17,11 @@
 
 // Game State Message correspond to GAME_STATE enums
 static NSString *gameStateMsgs[]=
-    {@"-- Tap on screen to start your own game of war --",
-     @"-- Tap on screen to play your card in War zone --",
-     @"-- Tap on screen to play computer card in War zone --",
-     @"-- Tap on screen to evaluate cards in War zone --",
-     @"-- Tap on screen to play again --"
+    {@"Tap on screen to start your own game of War",
+     @"Tap on screen to play your card in War Zone",
+     @"Tap on screen to play computer card in War Zone",
+     @"Tap on screen to evaluate cards in War Zone",
+     @"Tap on screen to play again"
     };
 
 // Game State modes,main actions of game
@@ -41,7 +41,7 @@ static GAME_MODE gameMode;
     // game starts in DEMO mode
     gameMode = AUTONOMOUS;
     gameState = START;
-    //[self buildHands];
+    [self buildHands];
     
     // autonomous game timer (preview)
     self.autonomousTimer = [NSTimer scheduledTimerWithTimeInterval:.50 target:self selector:@selector(gameControl) userInfo:nil repeats:YES];
@@ -57,10 +57,20 @@ static GAME_MODE gameMode;
     switch (gameState) {
             
         case START:
+            [self buildHands];
+            [self setupTable];
+            gameOver.alpha = 0;
+            gameMarquee.alpha = 1;
+            gameState = PLAYER;
+
         case END:       // End activites a replay
             // Start Play mode
+            [self buildHands];
+            [self setupTable];
             gameOver.alpha = 0;
-            gameMarquee.alpha = 0;
+            gameMarquee.alpha = 1;
+            gameState = PLAYER;
+
         case PLAYER:    // Player card
             [self playerCard];
             gameState = COMPUTER;
@@ -298,7 +308,7 @@ static GAME_MODE gameMode;
         [playerWins2 setImage:[UIImage imageNamed:image2]];
         
     } else {
-        // Computer winns
+        // Computer wins
         // Transfer update card 1
         card2handcp( &computerWins[computerCNT], warZone[0] );
         NSString *image1 = [NSString stringWithFormat:@"%s.png" , computerWins[computerCNT++].cImage] ;
